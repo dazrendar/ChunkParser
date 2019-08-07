@@ -1,0 +1,7 @@
+C:\Users\Drazhar\source\repos\ChunkParser\ChunkParser\bin\Debug\ChunkParser.exe.config
+C:\Users\Drazhar\source\repos\ChunkParser\ChunkParser\bin\Debug\ChunkParser.exe
+C:\Users\Drazhar\source\repos\ChunkParser\ChunkParser\bin\Debug\ChunkParser.pdb
+C:\Users\Drazhar\source\repos\ChunkParser\ChunkParser\obj\Debug\ChunkParser.csproj.CoreCompileInputs.cache
+C:\Users\Drazhar\source\repos\ChunkParser\ChunkParser\obj\Debug\ChunkParser.exe
+C:\Users\Drazhar\source\repos\ChunkParser\ChunkParser\obj\Debug\ChunkParser.pdb
+C:\Users\Drazhar\source\repos\ChunkParser\ChunkParser\obj\Debug\ChunkParser.csprojAssemblyReference.cache

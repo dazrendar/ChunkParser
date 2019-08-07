@@ -1,0 +1,19 @@
+﻿Chunk = { 
+	Name = "Hothead",
+	Boot = "Italy Boot",
+	Established = 2006, 
+	Scores = { 
+		Players = { 
+			Alice = 64, 
+			Bob = 32 
+		}, 
+		Rewards = ( 30, 20, 10 ), Min = 1, 
+		Max = 100,
+		ExtraString = "Help"
+	}, 
+	Games = ( 
+		"Big Win", 
+		"RAW", 
+		"Kill Shot" 
+	)
+} 
