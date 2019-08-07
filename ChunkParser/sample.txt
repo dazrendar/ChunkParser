@@ -1,5 +1,5 @@
 ﻿Chunk = { 
-	Name = "Hothead",
+	Name = "Coldfoot",
 	Boot = "Italy Boot",
 	Established = 2006, 
 	Scores = { 

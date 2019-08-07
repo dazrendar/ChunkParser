@@ -53,7 +53,6 @@ namespace ChunkParser
 
         public static void closeChunk()
         {
-            Console.WriteLine("~~~~~~~~~~~~~~~~~~~~ Closing Chunk ~~~~~~~~~~~~~~~~~~~");
             chunkDepth--;
             currentChunk = currentChunk.getParent();
         }

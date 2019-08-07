@@ -14,7 +14,7 @@ namespace ChunkParser
 
         public override void parse()
         {
-            Tokenizer.getAndCheckNext("="); // TODO CHANGED?  // Todo must also do something similar for COMMAS
+            Tokenizer.getAndCheckNext("="); 
             definition = Tokenizer.getPrevious();
             value = Tokenizer.getNext();
         }
@@ -31,7 +31,6 @@ namespace ChunkParser
             // Case: String
             if (value.Equals("\""))
             {
-                Console.WriteLine("YES!!!!! ~~~~ " + definition + " vs. " + value);
                 try
                 {
 
@@ -87,14 +86,10 @@ namespace ChunkParser
                 }
                 catch
                 {
-                    Console.WriteLine("Error: Not an int");
+                    // Console.WriteLine("Error: Not an int");
                 }
 
             }
-
-
-
-
         }
     }
 }

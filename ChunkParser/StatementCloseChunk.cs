@@ -15,7 +15,7 @@ namespace ChunkParser
 
         internal override void handleStatement()
         {
-            Tokenizer.getAndCheckNext("}"); // TODO CHANGED
+            Tokenizer.getAndCheckNext("}"); 
             Tokenizer.incrementTokenIndex();
         }
     }

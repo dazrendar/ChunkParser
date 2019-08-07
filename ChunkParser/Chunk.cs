@@ -18,7 +18,6 @@ namespace ChunkParser
 
         public Chunk(string chunkName, int chunkDepth, Chunk parent)
         {
-            Console.WriteLine("~~~~~~~~~~~~~~~~~~~~ Creating Chunk ~~~~~~~~~~~~~~~~~~~");
             this.name = chunkName;
             this.chunkDepth = chunkDepth;
             this.parent = parent;

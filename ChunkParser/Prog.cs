@@ -27,9 +27,6 @@ namespace ChunkParser
                 {
                     Tokenizer.incrementTokenIndex();
                 }
-
-
-                
             }
         }
 

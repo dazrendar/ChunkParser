@@ -10,7 +10,6 @@ namespace ChunkParser
 {
     static class Tokenizer
     {
-        //private static Tokenizer theTokenizer;
         private static List<char> literals;
         private static string program;
         private static string[] tokens;
@@ -44,7 +43,6 @@ namespace ChunkParser
             }
             
             tokens = Regex.Split(tokenizedProgram, @"[_]+");
-            Console.WriteLine(tokenizedProgram);
         }
 
         private static string checkNext()
@@ -92,7 +90,6 @@ namespace ChunkParser
         public static bool checkToken(string regexp)
         {
             string s = checkNext();
-            Console.WriteLine("comparing: <" + s + ">  to  <" + regexp + ">");
             return (s.Equals(regexp));
         }
 
@@ -109,41 +106,14 @@ namespace ChunkParser
             return s;
         }
 
-        /*
-        public static Tokenizer getTokenizer()
-        {
-            return theTokenizer;
-        }
-        */
-
-
-
-
-
-
+       
 
         public static bool moreTokens()
         {
             return currentTokenIndex < tokens.Length;
         }
 
-        
-
-        /*
-        public static void makeTokenizer(string filePath, List<char> literals)
-        {
-            if (theTokenizer == null)
-            {
-                theTokenizer = new Tokenizer(filePath, literals);
-            }
-        }
-        */
+       
     }
-
-    /*
-            for (int i = 0; i < allText.Length; i++)
-            {
-                Console.WriteLine(allText[i]);
-            }
-            */
+    
 }
