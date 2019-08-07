@@ -28,12 +28,18 @@ namespace ChunkParser
 
             try
             {
+                Console.WriteLine(chunk.GetChunk("Name").GetStr("Last"));
+                Console.WriteLine(chunk.GetNum("Age"));
+                Console.WriteLine(chunk.GetChunk("Address").GetStr("PostalCode"));
+                Console.WriteLine(chunk.GetChunk("Address").GetNum("Number"));
+                Console.WriteLine(chunk.GetArray("LuckyNumbers").GetStr(0));
+                /*
                 Console.WriteLine(chunk.GetStr("Name"));
                 Console.WriteLine(chunk.GetArray("Games").getStr(1));
                 Console.WriteLine(chunk.GetNum("Established"));
                 Console.WriteLine(chunk.GetChunk("Scores").GetChunk("Players").GetNum("Alice"));
                 // Console.WriteLine(chunk.FindNum("Alice"));
-
+                */
             } catch (Exception e)
             {
                 Console.WriteLine(e);

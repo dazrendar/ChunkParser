@@ -43,17 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chunk.cs" />
-    <Compile Include="ListOfObjects.cs" />
-    <Compile Include="StatementCloseArray.cs" />
-    <Compile Include="StatementArray.cs" />
-    <Compile Include="StatementCloseChunk.cs" />
-    <Compile Include="ChunkHandler.cs" />
-    <Compile Include="Declaration.cs" />
-    <Compile Include="Node.cs" />
-    <Compile Include="Prog.cs" />
-    <Compile Include="Statement.cs" />
-    <Compile Include="Tokenizer.cs" />
+    <Compile Include="Model\Chunk.cs" />
+    <Compile Include="Model\ListOfObjects.cs" />
+    <Compile Include="Parser\StatementCloseChunk.cs" />
+    <Compile Include="Model\ChunkHandler.cs" />
+    <Compile Include="Parser\Declaration.cs" />
+    <Compile Include="Parser\Node.cs" />
+    <Compile Include="Parser\Prog.cs" />
+    <Compile Include="Parser\Statement.cs" />
+    <Compile Include="Parser\Tokenizer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -63,5 +61,6 @@
   <ItemGroup>
     <Content Include="sample.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
